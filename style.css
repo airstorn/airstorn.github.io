@@ -1,5 +1,4 @@
-body
-{
+body{
 	background-color: #202020;
 	padding: 0,0,0,0;
 	margin: 0px;
@@ -7,28 +6,28 @@ body
 	font-family: Geneva, Verdana;
 
 }
-.logo
-{
+
+.logo{
 	height: 100%;
 	float: left;
 	background-image: "Logo.png";
 }
-.top
-{
+
+.top{
 	width: 100%;
 	height: 150px;
 	background-color: #171717;
 	margin: 0,0,0,0;
 	padding: 0,0,0,0;
 }
-.top nav
-{
+
+.top nav{
 	float: right;
 	color: white;
 	height: 100%;
 }
-.top nav li
-{
+
+.top nav li{
 	float: left;
 	width: 300px;
 	height: 100%;
@@ -36,8 +35,7 @@ body
 	list-style-type: none;
 }
 
-.top nav li button
-{
+.top nav li button{
 	background-color: #101010;
 	-webkit-transition-duration: 0.4s; 
 	transition-duration: 0.4s;
@@ -49,29 +47,25 @@ body
 	text-align: center;
 	font-size: 1rem;
 }
-.top nav li button:hover
-{
+.top nav li button:hover{
 	background-color: #202020;
 	font-size: 0;
 }
 
-
-.top_button_image
-{
+.top_button_image{
 	background-color: #101010;
 	-webkit-transition-duration: 0.4s; 
 	width: 50px;
 	border-radius: 25px;
 }
-.top_button_image:hover
-{
+
+.top_button_image:hover{
 	width: 100px;
 	border-radius: 25px;
 }
 
-.Conteiner
-{
-	background-color: #171717;
+.Container{
+	background-color: #191919;
 	margin-left: 10%;
 	margin-right: 10%;
 	height: 2000px;
@@ -79,59 +73,60 @@ body
 	margin-top: 20px;
 }
 
-.Conteiner ul
-{
+.Container ul{
 	padding:0;
 }
 
-.Conteiner ul li
-{
+.Container ul li{
 	list-style-type: none;
 }
 
-.Element
-{
+.Element{
 	width: auto;
-	background-color: green;
+	background-color: #151515;
+	margin-top: 30px;
 	height: 400px;
 }
 
-.Element_header
-{
-	background-color: blue;
+.Element_header{
+	background-color: #101010;
 	height: 100px;
 	width: auto;
 	display: flex;
-	text-align: center;
+	align-items: center;
+	padding: 10px;
 }
 
-.Element_header img
-{
+.Element_header img{
 	height: 100px;
 	border-radius: 25px;
-	float: left;
 }
 
-.Element_header_h1
-{
-	display: table-cell;
-	vertical-align: middle;
-	float: left;
-	text-align: center;
-	height: 100%;
-	margin-bottom: 0;
-	margin-top: 0;
+.Element_header_h1{
+	padding-left: 20px;
 }
 
 
-p
-{
+p{
 	color: rgb(179, 179, 179);
 	font-size: 2rem;
 }
-h1
-{
+
+h1{
 	color: white;
 	text-align: center;
+	font-family: Monaco, Verdana, Arial;
 
 }
+
+.category{
+	color: white;
+	font-size: 2rem;
+	font-family: Monaco, Verdana, Arial;
+}
+
+.element_content{
+	height: auto;
+	background-color: #101010;
+}
+
