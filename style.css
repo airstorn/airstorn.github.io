@@ -3,7 +3,6 @@ body{
 	padding: 0,0,0,0;
 	margin: 0px;
 	
-	font-family: Geneva, Verdana;
 
 }
 
@@ -110,12 +109,13 @@ body{
 p{
 	color: rgb(179, 179, 179);
 	font-size: 2rem;
+	font-family: expressway;
 }
 
 h1{
 	color: white;
 	text-align: center;
-	font-family: Monaco, Verdana, Arial;
+	font-family: expressway;
 
 }
 
@@ -127,6 +127,19 @@ h1{
 
 .element_content{
 	height: auto;
+	margin-top: 10px;
 	background-color: #101010;
+}
+
+.profile_image{
+	background: url(https://sun9-55.userapi.com/c846320/v846320079/c7d77/BueVxdAPjaE.jpg) 50% 50% no-repeat;
+	-webkit-transition-duration: 0.4s; 
+	transition-duration: 0.4s;
+	width: 300px;
+	height: 300px;
+}
+
+.profile_image:hover{
+	
 }
 
