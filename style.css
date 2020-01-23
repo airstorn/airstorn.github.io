@@ -86,6 +86,13 @@ body{
 	height: 400px;
 }
 
+.Element{
+	width: auto;
+	background-color: #151515;
+	margin-top: 30px;
+	height: 400px;
+}
+
 .Element_header{
 	background-color: #101010;
 	height: 100px;
@@ -169,6 +176,8 @@ progress {
 }
 
 #social_icon{
+	-webkit-transition-duration: 0.4s; 
+	transition-duration: 0.4s;
 	height: 100px;
 }
 
@@ -179,7 +188,11 @@ progress {
 
 .social_link{
 height: 100px;
-padding: 50px;
+	padding: 50px;
 float: left;
+}
+
+#social_icon:hover{
+	height: 150px;
 }
 
